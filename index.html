@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Game Awards 2023 Copycat</title>
+    <meta name="description" content="Copycat of The Game Awards website.">  
+    <link rel="shortcut icon" href="assets/tga-icon-2023-gold.png">  
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/tga-icon-2023-gold.png">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <script defer src="js/app.js"></script>
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function () {
+          new Splide( '#image-carousel',{
+            arrows: false,
+            paginationDirection: 'rtl',
+            height: '13.5rem',
+          } ).mount();
+        } );
+      </script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__center">
+            <div class="header__nav-wrapper">
+                <h1 class="header__h1">
+                    <a href="/" class="header__logo">
+                        <img class="header__image" src="assets/tga_icon_2023.svg" alt="Logo of The Game Awards">
+                    </a>
+                </h1>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li><a href="#" class="header__item">News</a></li>
+                        <li><a href="#" class="header__item">About</a></li>
+                    </ul>                   
+                </nav>   
+            </div>
+            <div class="header__text-wrapper">
+                <p class="header__text">•Nominees coming mid November•</p>
+            </div>
+            <div class="header__login">
+                <span class="header__item">Sign In</span>
+                <img src="assets/login_icon_2023.svg" alt="Image of the modal">
+                <div class="header__burger">
+                    <div class="header__buns">
+                        <span class="header__bun"></span>
+                        <span class="header__bun"></span>
+                    </div>            
+                </div>                    
+            </div>            
+        </div>
+        <div class="header__modal modal">
+            <div class="modal__container">
+                <div class="modal__title">
+                    <p class="modal__sign">Sign in</p>
+                    <p class="modal__vote">To vote & save progress</p>
+                </div>
+                <div class="modal__text">
+                    <p>The game awards can track your voting, badges and give you access to special features.</p>
+                </div>
+                <div class="modal__wrapper">
+                    <div class="modal__rrss">
+                        <ul class="modal__list">
+                            <li class="modal__item">
+                                <a href="https://twitter.com/" target="_blank" class="modal__button">
+                                    <svg class="modal__svg" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="modal__path" d="M3.0424 4.50977L9.75648 13.4993L3 20.8082H4.52061L10.4359 14.4092L15.2153 20.8082H20.39L13.2982 11.313L19.587 4.50977H18.0664L12.6187 10.4032L8.2171 4.50977H3.0424ZM5.27857 5.63137H7.65584L18.1535 19.6864H15.7762L5.27857 5.63137Z" fill="#FF9F59"></path></svg>
+                                </a>
+                            </li>
+                            <li class="modal__item">
+                                <a href="https://www.twitch.tv/" target="_blank" class="modal__button">
+                                    <svg class="modal__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path class="modal__path" d="m7.18 3.28-3 8v30h10v5.43h6.7l5.43-5.43h8.15l11.35-11.36V3.28Zm5.15 4.53h29v19.9l-5.43 5.43H25l-5.43 5.43v-5.43h-7.24Zm8.15 6.33v12.67h5.42V14.14Zm9 0v12.67H35V14.14Z"></path></svg>
+                                </a>
+                            </li>
+                            <li class="modal__item">
+                                <a href="https://www.facebook.com/" target="_blank" class="modal__button">
+                                    <svg class="modal__svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path class="modal__path" d="M20.006 3H3.994A.994.994 0 0 0 3 3.994v16.013c0 .548.445.993.994.993h8.621v-6.97h-2.346v-2.717h2.346V9.31c0-2.325 1.42-3.591 3.494-3.591.994 0 1.847.074 2.096.107v2.43h-1.438c-1.128 0-1.346.537-1.346 1.323v1.735h2.69l-.35 2.716h-2.34V21h4.587a.993.993 0 0 0 .992-.994V3.994A.994.994 0 0 0 20.006 3z"></path></svg>
+                                </a>
+                            </li>
+                            <li class="modal__item">
+                                <a href="https://www.tiktok.com/" target="_blank" class="modal__button">
+                                    <svg class="modal__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path class="modal__path" d="M37 12.09a10.4 10.4 0 0 1-4.72-8.73H24.8v30a6.29 6.29 0 1 1-6.28-6.53 5.82 5.82 0 0 1 1.85.29V19.5a12.69 12.69 0 0 0-1.85-.13 13.78 13.78 0 1 0 13.74 13.82V17.91a17.74 17.74 0 0 0 10.41 3.34v-7.46a10.37 10.37 0 0 1-5.67-1.7Z"></path></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal__checkbox">
+                        <label class="modal__label" for="sign">                            
+                            <input type="checkbox" id="sign" class="modal__check">
+                            <span class="modal__checkmark" tabindex="1"></span>
+                            Sign Me Up For The Mailing List
+                        </label>
+                    </div>
+                    <div class="modal__privacy">
+                        <p class="modal__text modal__text--privacy">We take your privacy serioulsy</p>
+                        <ul class="modal__list modal__list--privacy">
+                            <li class="modal__item">
+                                <a href="#" class="modal__link">Privacy</a>
+                            </li>
+                            <li class="modal__item">
+                                <a href="#" class="modal__link">Terms</a>
+                            </li>
+                            <li class="modal__item">
+                                <a href="#" class="modal__link">Cookies</a>
+                            </li>
+                        </ul>
+                    <!-- </div> -->
+                </div>
+            </div>
+            <div class="modal__close">
+                <span class="modal__span">Close</span>
+                <svg class="modal__svg modal__svg--close" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-[#FAFAFB] group-hover:text-grey-a8 transition duration-500 w-full h-full"><path d="M16 1L1 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 1L16 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </div>
+        </div>        
+    </header>
+    <main class="main">
+        <section class="section signup">
+            <video playsinline="" autoplay="" muted="" preload="auto" loop="" class="signup__video">
+                <source src="" type="video/webm">
+                <source src="assets/tga-bg-video-2023.mp4" type="video/mp4">
+            </video>
+            <div class="signup__top">
+                <span class="signup__text"></span>
+            </div>
+            <div class="signup__container">
+                <div class="signup__image-wrapper">
+                    <img src="assets/logo-tga.svg" alt="Image of The Game Awards" class="signup__image">
+                </div>
+                <div class="signup__date-wrapper">
+                    <p class="signup__date">December 7</p>
+                    <p class="signup__place">Peacock theater, los angeles</p>
+                    <button class="signup__button">Add event to calendar
+                        <span class="signup__buble-animation"></span>
+                    </button>
+                </div>
+                <div class="signup__stream-wrapper">
+                    <span class="signup__stream">The global celebration of video games</span>
+                    <img src="assets/tga_icon_orange_2023.svg" alt="Orange icon of The Game Awards">
+                    <span class="signup__stream"> streams live on all plataforms</span>
+                </div>
+                
+            </div>
+        </section>
+        <div class="home">
+            <section class="section news">
+                <div class="news__container">
+                    <div class="news__head">
+                        <h3 class="news__title">News</h3>
+                        <a href="#" class="news__view">View all</a>
+                    </div>            
+                    <div class="news__articles">
+                        <article class="news__article">                        
+                            <figure class="news__figure">
+                                <a href="#" class="news__link-container">                               
+                                    <div class="news__overlay">
+                                            <span class="news__cover news__cover1"></span>
+                                            <span class="news__cover news__cover2"></span>
+                                            <span class="news__cover news__cover3"></span>
+                                        </div>                                    
+                                    <img src="assets/TGA23_TEASER_16x9-scaled.webp" alt="Image with the date of The Game Awards" class="news__image">                              
+                                </a>
+                                <a href="#" class="news__link-container">
+                                    <figcaption class="news__fig">                                   
+                                        <p class="news__text">THE GAME AWARDS SET FOR DECEMBER 7, 2023</p>
+                                                                      
+                                    </figcaption>
+                                </a>                            
+                                    
+                                 
+                            </figure>
+                        </article>
+                        <article class="news__article">
+                            <figure class="news__figure">
+                                <a href="#" class="news__link-container">                               
+                                    <div class="news__overlay">
+                                        <span class="news__cover news__cover1"></span>
+                                        <span class="news__cover news__cover2"></span>
+                                        <span class="news__cover news__cover3"></span>
+                                    </div>                                
+                                <img src="assets/tga22_103.webp" alt="Image with viewer information on livestreams" class="news__image">                              
+                            </a>
+                            <a href="#" class="news__link-container">
+                                <figcaption class="news__fig">                                   
+                                    <p class="news__text">THE GAME AWARDS HITS 103 MILLION LIVESTREAMS</p>
+                                                                  
+                                </figcaption>
+                            </a>
+                            </figure>
+                        </article>
+                        <article class="news__article">
+                            <figure class="news__figure">
+                                <a href="#" class="news__link-container">                               
+                                    <div class="news__overlay">
+                                        <span class="news__cover news__cover1"></span>
+                                        <span class="news__cover news__cover2"></span>
+                                        <span class="news__cover news__cover3"></span>
+                                    </div>                                
+                                <img src="assets/tga_bowl_lockup.webp" alt="Image with event information" class="news__image">                              
+                            </a>
+                            <a href="#" class="news__link-container">
+                                <figcaption class="news__fig">                                   
+                                    <p class="news__text">HOLLYWOOD BOWL + THE GAME AWARDS CONCERT</p>
+                                                                  
+                                </figcaption>
+                            </a>
+                            </figure>
+                        </article>
+                        <article class="news__article">
+                            <figure class="news__figure">
+                                <a href="#" class="news__link-container">                               
+                                    <div class="news__overlay">
+                                        <span class="news__cover news__cover1"></span>
+                                        <span class="news__cover news__cover2"></span>
+                                        <span class="news__cover news__cover3"></span>
+                                    </div>                                
+                                <img src="assets/tga_sale.webp" alt="The game awards sale" class="news__image">                              
+                            </a>
+                            <a href="#" class="news__link-container">
+                                <figcaption class="news__fig">                                   
+                                    <p class="news__text">THE GAME AWARDS SALE</p>
+                                                                  
+                                </figcaption>
+                            </a>
+                            </figure>
+                        </article>
+                        <article class="news__article">
+                            <figure class="news__figure">
+                                <a href="#" class="news__link-container">                               
+                                    <div class="news__overlay">
+                                        <span class="news__cover news__cover1"></span>
+                                        <span class="news__cover news__cover2"></span>
+                                        <span class="news__cover news__cover3"></span>
+                                    </div>                                
+                                <img src="assets/twitch_rewards.webp" alt="Image Twitch viewer rewards" class="news__image">                              
+                            </a>
+                            <a href="#" class="news__link-container">
+                                <figcaption class="news__fig">                                   
+                                    <p class="news__text">TWITCH VIEWER REWARDS DURING TGA</p>
+                                                                  
+                                </figcaption>
+                            </a>
+                            </figure>
+                        </article>
+                        <article class="news__article medium">
+                            <figure class="news__figure">
+                                <a href="#" class="news__link-container">                               
+                                    <div class="news__overlay">
+                                        <span class="news__cover news__cover1"></span>
+                                        <span class="news__cover news__cover2"></span>
+                                        <span class="news__cover news__cover3"></span>
+                                    </div>                                
+                                <img src="assets/tga_truth_news.webp" alt="The game awards partners" class="news__image">                              
+                            </a>
+                            <a href="#" class="news__link-container">
+                                <figcaption class="news__fig">                                   
+                                    <p class="news__text">THE GAME AWARDS PARTNERS WITH TRUTH</p>
+                                                                  
+                                </figcaption>
+                            </a>
+                            </figure>
+                        </article>
+                        <article class="news__article medium">
+                            <figure class="news__figure">
+                                <a href="#" class="news__link-container">                               
+                                    <div class="news__overlay">
+                                        <span class="news__cover news__cover1"></span>
+                                        <span class="news__cover news__cover2"></span>
+                                        <span class="news__cover news__cover3"></span>
+                                    </div>                                
+                                <img src="assets/GAME002DOM_Domestic_Social_TOSDigitalArt_1920x1080_R01.webp" alt="Image with information from a fan-only event" class="news__image">                              
+                            </a>
+                            <a href="#" class="news__link-container">
+                                <figcaption class="news__fig">                                   
+                                    <p class="news__text">THE GAME AWARDS: THE IMAX EXPERIENCE</p>
+                                                                  
+                                </figcaption>
+                            </a>
+                            </figure>
+                        </article>
+                        <article class="news__article medium">
+                            <figure class="news__figure">
+                                <a href="#" class="news__link-container">                               
+                                    <div class="news__overlay">
+                                        <span class="news__cover news__cover1"></span>
+                                        <span class="news__cover news__cover2"></span>
+                                        <span class="news__cover news__cover3"></span>
+                                    </div>                                
+                                <img src="assets/discord_tga.webp" alt="Image with information from the official discord of The Game Awards" class="news__image">                              
+                            </a>
+                            <a href="#" class="news__link-container">
+                                <figcaption class="news__fig">                                   
+                                    <p class="news__text">VOTE FOR THE GAME AWARDS ON DISCORD!</p>
+                                                                  
+                                </figcaption>
+                            </a>
+                            </figure>
+                        </article>
+                    </div>
+                    <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+                        <div class="splide__track">
+                              <ul class="splide__list">
+                                  <li class="splide__slide">
+                                        
+                                    <div href="#" class="splide__slide__container">
+                                        <div class="news__overlay splide__overlay">
+                                                <span class="news__cover news__overlay1 splide__cover splide__cover1"></span>
+                                                <span class="news__cover news__overlay2 splide__cover splide__cover2"></span>
+                                                <span class="news__cover news__overlay3 splide__cover splide__cover3"></span>
+                                        </div>
+                                        <img class="splide__image" src="assets/TGA23_TEASER_16x9-scaled.webp" alt="Image with the date of The Game Awards">
+                                    </div>                                    
+                                    <h2 class="carousel-text splide__text" id="carousel-heading">The game awards set for december 7, 2023</h2>
+                                                                         
+                                        
+                                                                      
+                                  </li>
+                                  <li class="splide__slide">
+                                    <div class="splide__slide__container">
+                                        <div class="news__overlay splide__overlay">
+                                            <span class="news__cover news__overlay1 splide__cover splide__cover1"></span>
+                                            <span class="news__cover news__overlay2 splide__cover splide__cover2"></span>
+                                            <span class="news__cover news__overlay3 splide__cover splide__cover3"></span>
+                                        </div>
+                                          <img class="splide__image" src="assets/tga22_103.webp" alt="Image with viewer information on livestreams">
+                                    </div>                                    
+                                    <h2 class="carousel-text splide__text" id="carousel-heading">The game awards hits 103 million livestreams</h2>
+                                  </li>
+                                  <li class="splide__slide">
+                                    <div class="splide__slide__container">
+                                        <div class="news__overlay splide__overlay">
+                                            <span class="news__cover news__overlay1 splide__cover splide__cover1"></span>
+                                            <span class="news__cover news__overlay2 splide__cover splide__cover2"></span>
+                                            <span class="news__cover news__overlay3 splide__cover splide__cover3"></span>
+                                        </div>
+                                          <img class="splide__image" src="assets/tga_bowl_lockup.webp" alt="Image with event information">
+                                    </div>                                    
+                                    <h2 class="carousel-text splide__text" id="carousel-heading">Hollywood bowl + the game awards concert</h2>
+                                  </li>
+                                  <li class="splide__slide">
+                                    <div class="splide__slide__container">
+                                        <div class="news__overlay splide__overlay">
+                                            <span class="news__cover news__overlay1 splide__cover splide__cover1"></span>
+                                            <span class="news__cover news__overlay2 splide__cover splide__cover2"></span>
+                                            <span class="news__cover news__overlay3 splide__cover splide__cover3"></span>
+                                        </div>
+                                          <img class="splide__image" src="assets/tga_sale.webp" alt="The game awards sale">
+                                    </div>                                    
+                                    <h2 class="carousel-text splide__text" id="carousel-heading">The game awards sale</h2>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="splide__slide__container">
+                                        <div class="news__overlay splide__overlay">
+                                            <span class="news__cover news__overlay1 splide__cover splide__cover1"></span>
+                                            <span class="news__cover news__overlay2 splide__cover splide__cover2"></span>
+                                            <span class="news__cover news__overlay3 splide__cover splide__cover3"></span>
+                                        </div>
+                                          <img class="splide__image" src="assets/twitch_rewards.webp" alt="Image Twitch viewer rewards">
+                                    </div>                                    
+                                    <h2 class="carousel-text splide__text" id="carousel-heading">Twitch viewer rewards during tga</h2>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="splide__slide__container">
+                                        <div class="news__overlay splide__overlay">
+                                            <span class="news__cover news__overlay1 splide__cover splide__cover1"></span>
+                                            <span class="news__cover news__overlay2 splide__cover splide__cover2"></span>
+                                            <span class="news__cover news__overlay3 splide__cover splide__cover3"></span>
+                                        </div>
+                                          <img class="splide__image" src="assets/tga_truth_news.webp" alt="The game awards partners">
+                                    </div>                                    
+                                    <h2 class="carousel-text splide__text" id="carousel-heading">The game awards partners with truth</h2>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="splide__slide__container">
+                                        <div class="news__overlay splide__overlay">
+                                            <span class="news__cover news__overlay1 splide__cover splide__cover1"></span>
+                                            <span class="news__cover news__overlay2 splide__cover splide__cover2"></span>
+                                            <span class="news__cover news__overlay3 splide__cover splide__cover3"></span>
+                                        </div>
+                                          <img class="splide__image" src="assets/GAME002DOM_Domestic_Social_TOSDigitalArt_1920x1080_R01.webp" alt="Image with information from a fan-only event">
+                                    </div>                                    
+                                    <h2 class="carousel-text splide__text" id="carousel-heading">The game awards: the imax experience</h2>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="splide__slide__container">
+                                        <div class="news__overlay splide__overlay">
+                                            <span class="news__cover news__overlay1 splide__cover splide__cover1"></span>
+                                            <span class="news__cover news__overlay2 splide__cover splide__cover2"></span>
+                                            <span class="news__cover news__overlay3 splide__cover splide__cover3"></span>
+                                        </div>
+                                          <img class="splide__image" src="assets/discord_tga.webp" alt="Image with information from the official discord of The Game Awards">
+                                    </div>                                    
+                                    <h2 class="carousel-text splide__text" id="carousel-heading">Vote for the game awards on discord!</h2>
+                                </li>
+                              </ul>
+                        </div>
+                      </section>
+                </div>
+                
+            </section>
+            <section class="section explore">
+                <div class="explore__container">
+                    <h3 class="explore__title">Explore</h3>
+                    <div class="explore__articles">
+                        <a href="#" class="explore__link "> 
+                            <article class="explore__article left">
+                                <img class="explore__image explore__image--web" src="assets/home_explore_1_23_hover.webp" alt="Hover image with information about the nomination month">
+                                <img class="explore__image explore__image--web" src="assets/home_explore_1_23.webp" alt="Image with information about the month of nominations">
+                                <img class="explore__image explore__image--mobile" src="assets/home_explore_2_23_mobile.webp" alt="Mobile image with information about a future new class coming in December">
+                            </article>        
+                        </a>
+                        
+                        <a href="#" class="explore__link ">
+                            <article class="explore__article right">
+                                <img class="explore__image explore__image--web" src="assets/home_explore_2_23_hover.webp" alt="Hover image with information about a future new class coming in December">
+                                <img class="explore__image explore__image--web" src="assets/home_explore_2_23.webp" alt="Image with information on a future new class coming in December">
+                                <img class="explore__image explore__image--mobile" src="assets/home_explore_1_23_mobile.webp" alt="Image with information about the nominations month in mobile">
+                            </article>        
+                        </a> 
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <section class="newsletter">
+            <div class="newsletter__container">
+                <div class="newsletter__text-wrapper">
+                    <p class="newsletter__text"><strong>Tga insider</strong></p>
+                    <p class="newsletter__sign">Sign up for updates & news</p>
+                </div>
+                <div class="newsletter__form-wrapper">
+                    <form action="" class="newsletter__form">
+                        <input type="text" class="newsletter__input email" placeholder="Email">
+                        <label class="newsletter__label" for="asde">
+                            
+                            <input type="checkbox" id="asde" class="newsletter__check">
+                            <span class="newsletter__checkmark" tabindex="1"></span>
+                            You agree to receive occasional updates & news leading up the show
+                        </label>
+                        <div class="newsletter__wrapper">
+                            <button type="button" class="newsletter__button">Submit
+                                <span class="newsletter__buble-animation"></span>
+                            </button>
+                        </div>
+                        
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__side left">
+                <div class="footer__wrapper-image">
+                    <img src="assets/logo-tga-orange.svg" alt="Orange logo of The Game Awards" class="footer__image">
+                </div>
+                <div class="footer__links">
+                    <ul class="footer__list">
+                        <li class="footer__li">
+                            <a href="#" class="footer__link">About</a>
+                        </li>
+                        <li class="footer__li">
+                            <a href="#" class="footer__link">Privacy</a>
+                        </li>
+                        <li class="footer__li">
+                            <a href="#" class="footer__link">Subcriptions</a>
+                        </li>
+                        <li class="footer__li">
+                            <a href="#" class="footer__link">Contact</a>
+                        </li>
+                        <li class="footer__li">
+                            <a href="#" class="footer__link">Terms</a>
+                        </li>
+                    </ul>
+                </div>
+                <span class="footer__date">© 2023, The Game Awards</span>
+            </div>
+            <div class="footer__side right">
+                <div class="footer__right-title">
+                    <span class="footer__follow">Follow us</span>
+                <div class="footer__rrss">
+                    <ul class="footer__list--rrss">
+                        <li class="footer__li--rrss">
+                            <a href="https://twitter.com/" target="_blank" class="footer__a">
+                                <svg class="footer__svg" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="footer__path" d="M3.0424 4.50977L9.75648 13.4993L3 20.8082H4.52061L10.4359 14.4092L15.2153 20.8082H20.39L13.2982 11.313L19.587 4.50977H18.0664L12.6187 10.4032L8.2171 4.50977H3.0424ZM5.27857 5.63137H7.65584L18.1535 19.6864H15.7762L5.27857 5.63137Z" fill="#FF9F59"></path></svg>
+                            </a>
+                        </li>
+                        <li class="footer__li--rrss">
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__a">
+                                <svg class="footer__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path class="footer__path" d="M25 7.46c5.71 0 6.39 0 8.64.12a12.09 12.09 0 0 1 4 .74 7.08 7.08 0 0 1 4.06 4.06 12.07 12.07 0 0 1 .74 4c.1 2.26.12 2.94.12 8.65s0 6.39-.12 8.64a12.09 12.09 0 0 1-.74 4 7.08 7.08 0 0 1-4.06 4.06 12.09 12.09 0 0 1-4 .74c-2.25.1-2.93.12-8.64.12s-6.39 0-8.65-.12a12.07 12.07 0 0 1-4-.74 7.08 7.08 0 0 1-4.06-4.06 12.07 12.07 0 0 1-.74-4c-.1-2.26-.12-2.94-.12-8.65s0-6.39.12-8.65a12.07 12.07 0 0 1 .74-4 7.08 7.08 0 0 1 4.06-4.06 12.07 12.07 0 0 1 4-.74c2.26-.1 2.94-.12 8.65-.12m0-3.85c-5.81 0-6.54 0-8.82.12a15.77 15.77 0 0 0-5.19 1A10.38 10.38 0 0 0 7.2 7.2 10.38 10.38 0 0 0 4.73 11a15.77 15.77 0 0 0-1 5.19c-.1 2.28-.12 3-.12 8.82s0 6.54.12 8.82a15.77 15.77 0 0 0 1 5.19A10.38 10.38 0 0 0 7.2 42.8a10.38 10.38 0 0 0 3.8 2.47 15.77 15.77 0 0 0 5.19 1c2.28.1 3 .12 8.82.12s6.54 0 8.82-.12a15.77 15.77 0 0 0 5.19-1A11 11 0 0 0 45.27 39a15.77 15.77 0 0 0 1-5.19c.1-2.28.12-3 .12-8.82s0-6.54-.12-8.82a15.77 15.77 0 0 0-1-5.19A10.38 10.38 0 0 0 42.8 7.2 10.38 10.38 0 0 0 39 4.73a15.77 15.77 0 0 0-5.19-1c-2.28-.1-3-.12-8.82-.12Z"></path><path class="footer__path" d="M25 14a11 11 0 1 0 11 11 11 11 0 0 0-11-11Zm0 18.12A7.13 7.13 0 1 1 32.13 25 7.13 7.13 0 0 1 25 32.13ZM39 13.58A2.57 2.57 0 1 1 36.42 11 2.57 2.57 0 0 1 39 13.58Z"></path></svg>
+                            </a>
+                        </li>
+                        <li class="footer__li--rrss">
+                            <a href="https://www.tiktok.com/" target="_blank" class="footer__a">
+                                <svg class="footer__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path class="footer__path" d="M37 12.09a10.4 10.4 0 0 1-4.72-8.73H24.8v30a6.29 6.29 0 1 1-6.28-6.53 5.82 5.82 0 0 1 1.85.29V19.5a12.69 12.69 0 0 0-1.85-.13 13.78 13.78 0 1 0 13.74 13.82V17.91a17.74 17.74 0 0 0 10.41 3.34v-7.46a10.37 10.37 0 0 1-5.67-1.7Z"></path></svg>
+                            </a>
+                        </li>
+                        <li class="footer__li--rrss">
+                            <a href="https://discord.com/" target="_blank" class="footer__a">
+                                <svg class="footer__svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path class="footer__path" d="M20.317 4.55A19.482 19.482 0 0 0 15.432 3a.074.074 0 0 0-.079.038c-.21.384-.444.884-.608 1.277a17.883 17.883 0 0 0-5.487 0 13.04 13.04 0 0 0-.617-1.277.077.077 0 0 0-.079-.038c-1.714.302-3.354.83-4.885 1.549a.07.07 0 0 0-.032.028C.533 9.328-.32 13.962.099 18.538a.085.085 0 0 0 .031.058 19.74 19.74 0 0 0 5.993 3.096.077.077 0 0 0 .084-.029c.462-.644.874-1.323 1.226-2.038a.078.078 0 0 0-.041-.108 12.985 12.985 0 0 1-1.872-.911.08.08 0 0 1-.008-.13c.126-.097.252-.197.372-.299a.073.073 0 0 1 .078-.01c3.927 1.832 8.18 1.832 12.061 0a.073.073 0 0 1 .079.01c.12.1.245.202.372.298a.08.08 0 0 1-.006.13c-.598.358-1.22.66-1.873.912a.079.079 0 0 0-.041.108c.36.714.772 1.393 1.225 2.038a.075.075 0 0 0 .084.029 19.674 19.674 0 0 0 6.002-3.096.079.079 0 0 0 .032-.057c.5-5.29-.838-9.886-3.549-13.96a.061.061 0 0 0-.031-.03ZM8.02 15.752c-1.182 0-2.157-1.11-2.157-2.472 0-1.363.956-2.472 2.157-2.472 1.21 0 2.176 1.119 2.157 2.472 0 1.363-.956 2.472-2.157 2.472Zm7.975 0c-1.183 0-2.157-1.11-2.157-2.472 0-1.363.955-2.472 2.157-2.472 1.21 0 2.176 1.119 2.157 2.472 0 1.363-.946 2.472-2.157 2.472Z"></path></svg>
+                            </a>
+                        </li>
+                        <li class="footer__li--rrss footer__icon--disabled">
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__a">
+                                <svg class="footer__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path class="footer__path" d="M46.36 14.24a36.78 36.78 0 0 1 .81 6.68l.08 4.08-.08 4.08a37.12 37.12 0 0 1-.81 6.76 5.76 5.76 0 0 1-1.47 2.45 5.57 5.57 0 0 1-2.53 1.46c-1.41.38-4.73.66-9.94.82l-7.42.08-7.42-.08c-5.21-.16-8.53-.44-9.94-.82a5.57 5.57 0 0 1-2.53-1.46 5.82 5.82 0 0 1-1.47-2.45 37.12 37.12 0 0 1-.81-6.76L2.75 25c0-1.2 0-2.55.08-4.08a36.78 36.78 0 0 1 .81-6.68 5.68 5.68 0 0 1 1.47-2.53 5.57 5.57 0 0 1 2.53-1.46c1.41-.38 4.73-.66 9.94-.82L25 9.35l7.42.08c5.21.16 8.53.44 9.94.82a5.67 5.67 0 0 1 4 4ZM20.43 31.68 32.09 25l-11.66-6.6v13.28Z"></path></svg>
+                            </a>
+                        </li>
+                        <li class="footer__li--rrss footer__icon--disabled">
+                            <a href="https://www.twitch.tv/" target="_blank" class="footer__a">
+                                <svg class="footer__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path class="footer__path" d="m7.18 3.28-3 8v30h10v5.43h6.7l5.43-5.43h8.15l11.35-11.36V3.28Zm5.15 4.53h29v19.9l-5.43 5.43H25l-5.43 5.43v-5.43h-7.24Zm8.15 6.33v12.67h5.42V14.14Zm9 0v12.67H35V14.14Z"></path></svg>
+                            </a>
+                        </li>
+                        <li class="footer__li--rrss">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__a">
+                                <svg class="footer__svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path class="footer__path" d="M20.006 3H3.994A.994.994 0 0 0 3 3.994v16.013c0 .548.445.993.994.993h8.621v-6.97h-2.346v-2.717h2.346V9.31c0-2.325 1.42-3.591 3.494-3.591.994 0 1.847.074 2.096.107v2.43h-1.438c-1.128 0-1.346.537-1.346 1.323v1.735h2.69l-.35 2.716h-2.34V21h4.587a.993.993 0 0 0 .992-.994V3.994A.994.994 0 0 0 20.006 3z"></path></svg>
+                            </a>
+                        </li>
+                        <li class="footer__li--rrss footer__icon--disabled">
+                            <a href="#" class="footer__a">
+                                <svg class="footer__svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path class="footer__path" d="M13.504 13.769a2.704 2.704 0 0 1-3.008 0L3.12 8.85A2.69 2.69 0 0 1 3 8.766v8.058c0 .924.75 1.657 1.657 1.657h14.686c.924 0 1.657-.75 1.657-1.657V8.766c-.04.03-.08.058-.12.086l-7.376 4.917Z"></path><path d="m3.705 7.974 7.376 4.917a1.655 1.655 0 0 0 1.838 0l7.376-4.917A1.58 1.58 0 0 0 21 6.656C21 5.743 20.257 5 19.343 5H4.656C3.743 5 3 5.743 3 6.657c0 .53.264 1.023.705 1.317Z"></path></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                
+            </div>
+        </div>      
+    </footer>
+    <div class="preload">
+        <div class="preload__container">
+            <img class="preload__image" src="assets/TGA24_LOGO_LOADER.gif" alt="Loader image of The Game Awards">
+            <span class="preload__text">Loading</span>
+        </div>
+        
+    </div>
+</body>
+</html>
